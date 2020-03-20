@@ -12,9 +12,9 @@
 		"experimentalDecorators": true,
 		"baseUrl": ".",
 		"paths": {
-			"styled": ["node_modules/styled-components"]
+			"styled": ["shared/styled"]
 		}
 	},
-	"include": ["packages/**", "shared/**", "tools/**"],
+	"include": ["packages/**/*", "shared/**/*", "tools/**/*"],
 	"exclude": ["node_modules", "**/node_modules/**"]
 }
