@@ -1,0 +1,22 @@
+{
+	"private": true,
+	"name": "@antmin/root",
+	"version": "0.0.1",
+	"license": "MIT",
+	"workspaces": {
+		"packages": [
+			"packages/*",
+			"projects/*",
+			"shared/*",
+			"tools/*"
+		]
+	},
+	"devDependencies": {
+		"@schlagerkhan/prettier-config": "^0.0.1",
+		"cypress": "^4.2.0",
+		"jest": "^25.1.0",
+		"lerna": "^3.20.2",
+		"prettier": "^1.19.1",
+		"typescript": "^3.8.3"
+	}
+}
