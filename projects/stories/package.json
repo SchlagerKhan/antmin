@@ -1,6 +1,22 @@
 {
-  "name": "@antmin/stories",
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT"
+	"name": "@antmin/stories",
+	"version": "0.0.1",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.8.7",
+		"@storybook/addon-actions": "^5.3.17",
+		"@storybook/addon-links": "^5.3.17",
+		"@storybook/addons": "^5.3.17",
+		"@storybook/react": "^5.3.17",
+		"babel-loader": "^8.0.6"
+	},
+	"scripts": {
+		"start": "start-storybook -p 6006 --quiet --ci",
+		"build": "build-storybook"
+	}
 }
