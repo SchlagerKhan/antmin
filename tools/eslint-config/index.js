@@ -1,3 +1,6 @@
 module.exports = {
-	extends: "@schlagerkhan/ts"
+	extends: '@schlagerkhan/ts',
+	rules: {
+		'import/no-unresolved': 0,
+	},
 };
