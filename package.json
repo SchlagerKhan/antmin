@@ -3,6 +3,7 @@
 	"name": "@antmin/root",
 	"version": "0.0.1",
 	"license": "MIT",
+	"prettier": "@schlagerkhan/prettier-config",
 	"workspaces": {
 		"packages": [
 			"packages/*",
@@ -11,12 +12,26 @@
 			"tools/*"
 		]
 	},
+	"scripts": {
+		"--START--": "",
+		"start": "npx lerna run start",
+		"start:stories": "lerna run start --scope=@antmin/stories",
+		"--TEST--": "",
+		"lint": "npx eslint . --ext '.tsx'",
+		"test": "npx jest",
+		"--BUILD--": "",
+		"clean": "npx lerna exec 'rm -rf lib'",
+		"build": "npx lerna run build"
+	},
 	"devDependencies": {
 		"@schlagerkhan/prettier-config": "^0.0.1",
+		"antd": "3",
 		"cypress": "^4.2.0",
 		"jest": "^25.1.0",
 		"lerna": "^3.20.2",
 		"prettier": "^1.19.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
 		"typescript": "^3.8.3"
 	}
 }
