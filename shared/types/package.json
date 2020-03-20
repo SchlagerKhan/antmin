@@ -1,0 +1,10 @@
+{
+  "name": "@antmin/types",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.9.2",
+    "@types/styled-components": "^5.0.1"
+  }
+}
