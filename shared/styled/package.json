@@ -1,0 +1,14 @@
+{
+	"name": "@antmin/styled",
+	"version": "0.0.1",
+	"main": "index.ts",
+	"license": "MIT",
+	"dependencies": {
+		"react-is": "^16.13.1",
+		"styled-components": "^5.0.1"
+	},
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}
